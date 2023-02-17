@@ -28,7 +28,7 @@ else:
 
 API_TOKEN = os.getenv('TONCENTER_API_KEY')
 
-TONCENTER_BASE = 'https://toncenter.com/api/v2/'
+TONCENTER_BASE = 'https://testnet.toncenter.com/api/v2/'
 headers = {
     'cookie': 'csrftoken=vO44viQbEDlbcKiLz56aaE8tLmjzc5XtVqUTZo6zgItxRNehF7VRGlCVdQR3dul9',
     'x-csrftoken': 'vO44viQbEDlbcKiLz56aaE8tLmjzc5XtVqUTZo6zgItxRNehF7VRGlCVdQR3dul9',
